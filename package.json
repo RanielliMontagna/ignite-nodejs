@@ -4,7 +4,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "node --watch src/server.js"
+    "dev": "node --watch src/server.js",
+    "dev:stream-server": "node --watch streams/stream-http-server.js",
+    "dev:stream-fake-upload": "node --watch streams/fake-upload-to-http-stream.js"
   },
   "keywords": [],
   "author": "",
